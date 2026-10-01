@@ -1,0 +1,19 @@
+FROM ubuntu:26.04
+
+RUN apt update && apt upgrade -y
+
+RUN apt-get update && apt-get -y install \
+net-tools \
+iputils-ping \
+curl  \
+wget \
+iproute2 \
+nmap \
+iperf3 \
+traceroute \
+ncat \
+iputils-tracepath
+
+EXPOSE 5000
+
+CMD ["/bin/bash"]

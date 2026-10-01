@@ -1,1 +1,17 @@
+# SBOM file 
 sbom*
+
+# Secrets / env
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+
+# Editor
+.vscode/
+.idea/
+*.iml
+
+

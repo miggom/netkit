@@ -12,7 +12,14 @@ nmap \
 iperf3 \
 traceroute \
 ncat \
-iputils-tracepath
+iputils-tracepath \
+socat \
+tcpdump \
+jq \
+dnsutils \
+ethtool \
+mtr \
+arping
 
 EXPOSE 5000
 

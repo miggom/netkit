@@ -26,7 +26,7 @@ There is no need to install all the networking tools in the host anymore. It is 
 
 miggom/netkit:latest
 
-# Git link
+# Dockerhub link
 
 [miggom/netkit:latest](https://hub.docker.com/r/miggom/netkit)
 
